@@ -31,10 +31,12 @@ function App() {
   return (
     <div className="page-shell">
       <header className="hero section section-dark">
-        <div className="logo-lockup" aria-label="Resilient Athletics logo placeholder">
-          <div className="logo-placeholder">
-            <span>Logo</span>
-          </div>
+        <div className="logo-lockup">
+          <img
+            className="brand-logo"
+            src="/resilient-athletics-logo.png"
+            alt="Resilient Athletics"
+          />
         </div>
         <div className="hero-copy">
           <p className="eyebrow">Premium training gym</p>

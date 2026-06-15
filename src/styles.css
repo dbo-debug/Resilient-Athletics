@@ -89,20 +89,12 @@ a {
   justify-content: center;
 }
 
-.logo-placeholder {
-  width: min(220px, 48vw);
-  aspect-ratio: 1 / 1;
-  border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background:
-    linear-gradient(135deg, rgba(24, 168, 75, 0.12), transparent 50%),
-    rgba(255, 255, 255, 0.02);
-  display: grid;
-  place-items: center;
-  color: var(--color-light-gray);
-  text-transform: uppercase;
-  letter-spacing: 0.24em;
-  font-size: 0.8rem;
+.brand-logo {
+  width: min(680px, 88vw);
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.4));
 }
 
 .hero-copy {
@@ -308,6 +300,10 @@ h3 {
     min-height: auto;
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .brand-logo {
+    width: min(560px, 92vw);
   }
 }
 
